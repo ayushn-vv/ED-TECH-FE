@@ -1,0 +1,26 @@
+@import "tailwindcss";
+.slick-slide {
+  height: auto !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-list {
+  overflow: visible;
+}
+.slick-arrow {
+  z-index: 1;
+}
+/* ============================= */
+/* React Slick – Slide Spacing   */
+/* ============================= */
+
+.slick-slide > div {
+  margin: 0 16px; /* SPACE BETWEEN SLIDES */
+}
+
+.slick-list {
+  margin: 0 -16px; /* FIX EDGE CUTTING */
+}
